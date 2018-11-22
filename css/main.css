@@ -8,7 +8,6 @@ html {
 }
 
 div {
-  display: block;
   font-size: .875rem;
   float: left;
   width: 25%;
@@ -16,6 +15,9 @@ div {
   border-right: 1px  solid #666;
   padding: 1em;
   font-family: "Open Sans", sans-serif;
+  display: flex;
+  flex-grow: 0;
+  flex-direction: column;
 }
 h1 {
   font-size: 2rem;
@@ -80,5 +82,5 @@ img {
 }
 
 .btn-small {
- padding: left: .5em;
+ padding: left .5em;
 }
