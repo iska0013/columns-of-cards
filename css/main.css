@@ -18,6 +18,8 @@ div {
   display: flex;
   flex-grow: 0;
   flex-direction: column;
+  align-content: stretch;
+  margin-bottom: 2em;
 }
 
 body {
@@ -72,12 +74,20 @@ section img {
   background-color: #e2e2e2;
 }
 
+.first .btn {
+  margin-top: 1.5em;
+}
+
 .second {
   background-color: #ccc;
 }
 
 .third {
   background-color: #aaa;
+}
+
+.third .btn {
+  margin-top: 1.5em;
 }
 
 .fourth {
