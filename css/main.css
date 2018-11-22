@@ -23,6 +23,8 @@ div {
 body {
   background-color: #f2f2f2;
   margin: 0;
+  margin-left: 1em;
+  margin-right: 1em;
 }
 
 h1 {
@@ -57,10 +59,13 @@ p {
 img {
   display: block;
   width: 100%;
+  text-align: center;
 }
 
 section img {
   width: 100px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .first {
