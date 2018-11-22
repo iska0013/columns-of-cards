@@ -1,0 +1,83 @@
+html {
+  box-sizing: border-box;
+  font: normal 100%/1.5 sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+div {
+  display: block;
+  font-size: .875rem;
+  float: left;
+  width: 25%;
+  border-left: 1px solid #666;
+  border-right: 1px  solid #666;
+  padding: 1em;
+}
+h1 {
+  font-size: 2rem;
+  font-style: normal;
+}
+
+h2 {
+  font-size: 1rem;
+  font-style: normal;
+  margin: 0;
+  margin-top: 1em;
+}
+
+h3 {
+  font-size: 1rem;
+  font-style: italic;
+  margin: 0;
+  font-weight: normal;
+}
+
+p {
+  font-size: 1rem;
+  margin-top: 0;
+  margin-bottom: 1.5em;
+}
+
+.dive {
+  float: left;
+}
+
+img {
+  display: block;
+  width: 100px;
+
+}
+
+.first {
+  background-color: #e2e2e2;
+}
+
+.second {
+  background-color: #ccc;
+}
+
+.third {
+  background-color: #aaa;
+}
+
+.fourth {
+  background-color: #999;
+}
+
+.btn {
+  display: block;
+  padding: .75rem;
+  font-size: .875rem;
+  text-decoration: none;
+  background-color: #333;
+  color: #fff;
+  border-radius: 8px;
+
+}
+
+.btn-small {
+ padding: left: .5em;
+}
